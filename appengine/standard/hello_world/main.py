@@ -35,3 +35,12 @@ class MainPage(webapp2.RequestHandler):
             </body>
             </html>""" % (result, buttons))
 app = webapp2.WSGIApplication([('/', MainPage)], debug=True)
+
+#TUTORIALDIR=src/peaceful-doodad-201305/python_gae_quickstart-2018-04-17-15-01
+
+#git clone https://github.com/GoogleCloudPlatform/python-docs-samples $TUTORIALDIR
+
+#cd $TUTORIALDIR/appengine/standard/hello_world
+#dev_appserver.py $PWD
+
+#gcloud app deploy app.yaml --project peaceful-doodad-201305#
